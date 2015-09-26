@@ -149,7 +149,7 @@ echo XX.XX.XX.XX | sudo tee /etc/mesos-slave/hostname
 
 echo zk://XX.XX.XX.XX:2181/mesos | sudo tee /etc/mesos/zk
 
-**Note:** replace xx.xx.xx.xx with the slave IP address
+**Note:** replace xx.xx.xx.xx with the Master IP address
 
 **6. Restart the slave service**
 
